@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    /*background-image: url('../image/fondd.jpg');
+    /*background-attachment: fixed;
+    background-repeat: no-repeat;*/
+}
+/*.flex-container ul li{
+    
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+*/
+#header{
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    background-color: rgb(216, 115, 75);
+}
+
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li{
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+    
+}
+.navbar ul li:hover{
+    animation: line 1s;
+}
+.navbar ul li a{
+    display: inline-block;
+    margin: 0 30px;
+    text-decoration: none;
+    color: rgb(59, 54, 54);
+}
+.navbar ul li a:hover{
+    text-decoration-line: underline;
+    color: rgb(14, 12, 11);
+    
+}
+#accueil{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(197, 101, 64); 
+    display: flex;
+    flex-flow: row nowrap;
+}
+#accueil .container-image{
+    width: 40%;
+    margin-top: 100px;
+    
+}
+#accueil .container-image div#pdp{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-image: url('../image/mika.jpg');
+    margin: auto;
+}
+#accueil .container-description{
+    width: 60%;
+    margin-top: 15%;
+}
+@keyframes line{
+    0%{
+        background-position-x: 390px;
+    }
+}
+#apropos{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(195, 99, 62); 
+    display: flex;
+    flex-flow: row nowrap;
+}
+#apropos .container-image2{
+    width: 50%;
+    margin-top: 100px;
+}
+#apropos .container-description2 h1{
+    text-decoration: darkgrey;
+    text-transform: capitalize;
+}
+#apropos .container-description2 h1:hover{
+    color: black;
+}
+#apropos .container-description2 h1 p{
+    text-decoration: darkgrey;
+    text-transform: capitalize;
+}
+#apropos .container-description2 p:hover{
+    color: black;
+}
+#apropos .container-description2{
+    width: 50%;
+    margin-top: 10%;
+}
+#anatyimage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+}
+#anatyimage .pdp{
+    width: 40%;
+    margin-top: 100px;
+}
+#anatyimage .pdp div#photo{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url('../image/toux.jpg');
+    margin: auto;
+}
+#anatyimage .soratra{
+    width: 60%;
+    margin-top: 15%;
+}
+#anatyimage .soratra p{
+    color: black;
+    font-size: 20px;
+}
+#contact {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(195, 99, 62); 
+    display: flex;
+    flex-flow: row nowrap;
+}
+#contact .container-msg h1{
+    text-decoration: darkgrey;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-top: 10%;
+    margin-left: 70px;
+}
+.barre{
+    font-weight: bold;
+    width: 100px;
+    color: black;
+    
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    text-decoration-line: underline;
+    margin-top: 10px;
+
+}
+input,label{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+   /* margin-top: 10px;*/
+    margin-left: 70px;
+}
+.envoyer{
+    width: 90px;
+   color:rgb(50, 109, 50);
+}
